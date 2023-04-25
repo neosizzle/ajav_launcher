@@ -10,7 +10,7 @@ public class Baloon extends Aircraft implements Flyable{
 
 	@Override
 	public void registerTower(WeatherTower _weatherTower) {
-		String prefix = "Baloon#" + this.name + "(" + this.id + "): ";
+		String prefix = "Baloon#" + this.name + "(" + this.id + ")";
 		_weatherTower.register(this);
 		this.weatherTower = _weatherTower;
 		System.out.println("Tower registered: " + prefix);

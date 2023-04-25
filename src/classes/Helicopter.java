@@ -10,7 +10,7 @@ public class Helicopter extends Aircraft implements Flyable{
 
 	@Override
 	public void registerTower(WeatherTower _weatherTower) {
-		String prefix =  "Helicopter#" + this.name + "(" + this.id + "): ";
+		String prefix =  "Helicopter#" + this.name + "(" + this.id + ")";
 		_weatherTower.register(this);
 		this.weatherTower = _weatherTower;
 		System.out.println("Tower registered: " + prefix);
