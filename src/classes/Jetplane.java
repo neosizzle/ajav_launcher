@@ -52,7 +52,7 @@ public class Jetplane extends Aircraft implements Flyable {
 			newHeight = 0;
 			System.out.println(prefix + "is landing..");
 			this.weatherTower.unregister(this);
-			System.out.println("Tower unregistered: " + prefix);
+			System.out.println("Tower unregistered: " + prefix + "Bye Bye");
 		}
 		this.coordinates = new Coordinates(newLat, newLong, newHeight);
 	}
