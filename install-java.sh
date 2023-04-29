@@ -6,3 +6,4 @@ brew install java
 echo 'export PATH="$PWD/brew/opt/openjdk/bin:$PATH"' >> ~/.bash_profile
 source ~/.bash_profile
 java --version
+brew install mvn
